@@ -29,6 +29,9 @@ else:
 d = c #maximalnoe po modulu otricatelnoe
 e = b
 f = a
+
+#plus eshe sluchay esli otricatelnux kakix iz bukv net (a, b, c, d, e, f)
+
 for i in range(3, len(l)):
     if l[i] >= 0:
         if l[i] > a:
